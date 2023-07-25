@@ -49,6 +49,44 @@
             </div>
         </div>
     </nav>
+    <main>
+        <section class="banner p-3 relative">
+            <div class="banner-content flex flex-col justify-center items-center absolute z-10 w-3/5 inset-0 m-auto text-white md:gap-4">
+                <div class="banner-title text-center font-extrabold md:text-4xl">
+                    Exotic tastes at your <br>
+                    doorstep 
+                </div>
+                <div class="banner-sub text-center font-light text-sm md:text-xl">
+                    We supply highly quality organic products
+                </div>
+                <button class="btn btn-primary bg-[#F85559] border-none">Shop Now</button>
+            </div>
+            <div class="carousel w-full rounded-xl">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="./images/banner1.png" class="w-full brightness-75" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full brightness-75">
+                  <img src="./images/banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full brightness-75">
+                  <img src="./images/banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                </div>
+              </div>
+        </section>
+    </main>
 </body>
 
 </html>
