@@ -45,7 +45,7 @@
                 </div>
                 <div class="form-control hidden lg:flex">
                     <input type="text" placeholder="Search here"
-                        class="input input-bordered w-24 md:w-auto rounded-full bg-white" />
+                        class="input input-bordered w-24 md:w-auto rounded-full bg-white text-black" />
                 </div>
             </div>
         </div>
@@ -53,8 +53,8 @@
     <main>
         <section class="banner p-3 relative">
             <div
-                class="banner-content flex flex-col justify-center items-center absolute z-10 w-3/5 inset-0 m-auto text-white md:gap-4">
-                <div class="banner-title text-center font-extrabold md:text-4xl">
+                class="banner-content flex flex-col justify-center items-center absolute z-10 w-3/5 inset-0 m-auto text-white md:gap-4 lg:bottom-72">
+                <div class="banner-title text-center font-extrabold md:text-4xl lg:bottom">
                     Exotic tastes at your <br>
                     doorstep
                 </div>
@@ -120,6 +120,69 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="deal flex flex-col justify-center items-center p-3 text-black font-lato gap-10">
+            <deals class="deals-content-container flex flex-col justify-center items-center gap-5 lg:flex-row lg:justify-between lg:px-5">
+                <div class="deals-content text-center flex flex-col justify-center items-center gap-2 md:w-4/5 lg:w-2/4 lg:items-start">
+                    <div class="deals-title font-bold text-2xl">
+                        Deal of the day
+                    </div>
+                    <div class="deals-sub text-[#717171] font-light lg:text-start">
+                        Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                    </div>
+                </div>
+                <div class="countdown">
+                    <div class="flex gap-5">
+                        <div>
+                          <span class="countdown font-lato text-4xl">
+                            <span style="--value:15;"></span>
+                          </span>
+                          :
+                        </div> 
+                        <div>
+                          <span class="countdown font-lato text-4xl">
+                            <span style="--value:10;"></span>
+                          </span>
+                          hours
+                        </div> 
+                        <div>
+                          <span class="countdown font-lato text-4xl">
+                            <span style="--value:24;"></span>
+                          </span>
+                          :
+                        </div> 
+                        <div>
+                          <span class="countdown font-lato text-4xl">
+                            <span style="--value:33;"></span>
+                          </span>
+                          :
+                        </div>
+                      </div>
+                </div>
+            </deals>
+            <div class="card-container w-full flex flex-col justify-center items-center">
+                <div class="card w-[95%] bg-base-100 shadow-xl bg-white border-[#e7e7e7] border-2">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title border-b-2">12.90$ - 18.85$!</h2>
+                      <p>Apples</p>
+                      <div class="starts">
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                          </div>
+                      </div>
+                      <div class="card-actions">
+                        <button class="text-[#F85559]">Details</button>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </section>
     </main>
